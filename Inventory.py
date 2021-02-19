@@ -4,6 +4,7 @@ import sqlite3
 import openpyxl as opx
 import os
 
+
 class Products:
     def __init__(self, Barcode, Size, Item, Location, Price, Quantity):
         self.Barcode = Barcode
@@ -27,9 +28,9 @@ class Products:
         return self.Size
         pass
 
-    # cannot and will been seen by inventory staff, only for the Entry app and reporting.
     def Price(self):
         pass
+# cannot and will been seen by inventory staff, only for the Entry app and reporting.
 
     def Quantity():
         pass
