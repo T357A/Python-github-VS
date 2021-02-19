@@ -1,7 +1,8 @@
 import pandas as pd
 import os
 import sqlite3
-
+import openpyxl as opx
+import os
 
 class Products:
     def __init__(self, Barcode, Size, Item, Location, Price, Quantity):
