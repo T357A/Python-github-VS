@@ -28,11 +28,11 @@ def New_Item(self, Barcode, Item, Size, Price, Dept_Id, Quantity):
 
     def Dept_Id():
         pass
-        Is_It_New = input()
-        if Is_It_New is Y or y:
-            New_Dept = str(input('What is the new department called? :'))
-        else:
-            pass
+ #       Is_It_New = input()
+ #       if Is_It_New is Y or y:
+ #           New_Dept = str(input('What is the new department called? :'))
+ #       else:   '''
+    pass
 
     def Price():
         pass
@@ -40,8 +40,8 @@ def New_Item(self, Barcode, Item, Size, Price, Dept_Id, Quantity):
 
     def Quantity():
         pass
-        qty = input('Would you like to add a count to this entry?: (Y/N)')
-        if qty is Y or y:
-            quantity = (int('Please enter the amount: '))
-        else:
-            pass  # Need to decide if loop back to more input or break I.E. If N or N
+#        qty = input('Would you like to add a count to this entry?: (Y/N)')
+#        if qty is Y or y:
+#            quantity = (int('Please enter the amount: '))
+#        else:
+#            pass  # Need to decide if loop back to more input or break I.E. If N or N
